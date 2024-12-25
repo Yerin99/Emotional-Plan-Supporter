@@ -1,0 +1,13 @@
+name: blenderbot_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch=2.4.1
+  - torchvision=0.20.0
+  - torchaudio=2.4.1
+  - transformers=4.46.3
+  - tqdm
+  - numpy
+  - huggingface-hub
